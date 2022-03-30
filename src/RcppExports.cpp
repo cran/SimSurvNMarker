@@ -7,6 +7,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // eval_marker
 void eval_marker(SEXP B, SEXP m, SEXP Sout);
 RcppExport SEXP _SimSurvNMarker_eval_marker(SEXP BSEXP, SEXP mSEXP, SEXP SoutSEXP) {
@@ -40,7 +45,7 @@ BEGIN_RCPP
 END_RCPP
 }
 // glq
-Rcpp::NumericVector glq(SEXP lb, SEXP ub, SEXP nodes, SEXP weights, SEXP f, SEXP rho);
+SEXP glq(SEXP lb, SEXP ub, SEXP nodes, SEXP weights, SEXP f, SEXP rho);
 RcppExport SEXP _SimSurvNMarker_glq(SEXP lbSEXP, SEXP ubSEXP, SEXP nodesSEXP, SEXP weightsSEXP, SEXP fSEXP, SEXP rhoSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
