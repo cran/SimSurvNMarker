@@ -1,9 +1,9 @@
-d401f794426256406759342fe3693f17 *DESCRIPTION
+47c0481993e837ee75880ab650d30979 *DESCRIPTION
 7ea6344488831fe9c647b1d042ab074e *NAMESPACE
 bbcbc4737f8c2aca85c47806fa37a181 *R/RcppExports.R
 2544599c166053640869c1b3bd29e362 *R/roxygen.R
 a2be6ddff2e0b55623bef569da3bf4c9 *R/sim.R
-5a77e1d14488815657350502844912d6 *build/vignette.rds
+e0bb90edc7bda74d60ca13074f05bc48 *build/vignette.rds
 59c61510f9943f93ce0225c5d4f73122 *inst/doc/SimSurvNMarker.html
 26713e1843690474661983064d60b4ee *inst/doc/SimSurvNMarker.html.asis
 52733b13d1f667a2f5d2390c7eca55e7 *inst/test-data/get-test-data.R
@@ -31,7 +31,7 @@ bd7e05000502e1a222237020dd60135c *man/get_ns_spline.Rd
 58fa4a037ba2dfcf91b5fc79474b2af4 *man/sim_joint_data_set.Rd
 3734dd5c5a91a9ba2c958bf840b0b9c2 *man/sim_marker.Rd
 fcf915908d7093201117cc40d2a5ee21 *man/surv_func_joint.Rd
-e4a9a47c4a3aca98677ab8b16336e5de *src/Makevars
+20bb643d736bbe0039b820d837b234d3 *src/Makevars
 b58757932fe5203a4fa02f6893f5f6ee *src/RcppExports.cpp
 8066012324ce30673ca1457516ab61e3 *src/SimSurvNMarker_types.h
 9db91cdea0b29ed799342e4159698cc9 *src/eval-marker.cpp
